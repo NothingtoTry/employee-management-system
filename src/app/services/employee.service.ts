@@ -7,22 +7,10 @@ import { Employee } from '../models/employee.model';
 export class EmployeeService {
   private employees: Employee[] = [
     {
-      EmployeeId: 1,
-      EmployeeNumber: 'EMP001',
-      FirstName: 'John',
-      LastName: 'Doe',
-      Birthday: new Date(1990, 5, 15),
-      Gender: 'Male',
-      Picture: 'https://example.com/john_doe.jpg'
+      EmployeeId: 1, EmployeeNumber: 'EMP0001', FirstName: 'John', LastName: 'Wick', Birthday: new Date(1991, 15, 8), Gender: 'Male', Picture: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lionsgate.com%2Ffranchises%2Fjohn-wick&psig=AOvVaw2CCupa8NG-7afllUVcniDG&ust=1710865087164000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIiBtKCb_oQDFQAAAAAdAAAAABAJ'
     },
     {
-      EmployeeId: 2,
-      EmployeeNumber: 'EMP002',
-      FirstName: 'Jane',
-      LastName: 'Smith',
-      Birthday: new Date(1985, 10, 25),
-      Gender: 'Female',
-      Picture: 'https://example.com/jane_smith.jpg'
+      EmployeeId: 2, EmployeeNumber: 'EMP002', FirstName: 'Dead', LastName: 'Pool', Birthday: new Date(1995, 13, 20), Gender: 'Male', Picture: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uiargonaut.com%2F2016%2F05%2F06%2Fbreaking-all-the-rules-the-first-deadpool-movie-is-what-comic-book-fans-deserve%2F&psig=AOvVaw2vs_IIvY7mf0HoNnKCSt-E&ust=1710865060804000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLDo0JOb_oQDFQAAAAAdAAAAABAE'
     }
   ];
 
