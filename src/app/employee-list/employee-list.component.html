@@ -1,0 +1,8 @@
+<div *ngFor="let employee of employees">
+    <div>{{ employee.EmployeeNumber }}</div>
+    <div>{{ employee.LastName }}, {{ employee.FirstName }}</div>
+    <div (click)="viewEmployeeDetails(employee.EmployeeId)">View Details</div>
+    <div (click)="editEmployee(employee.EmployeeId)">Edit</div>
+    <div (click)="deleteEmployee(employee.EmployeeId)">Delete</div>
+  </div>
+  
