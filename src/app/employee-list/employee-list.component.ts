@@ -27,6 +27,6 @@ export class EmployeeListComponent implements OnInit {
 
   deleteEmployee(id: number): void {
     this.employeeService.deleteEmployee(id);
-    this.employees = this.employeeService.getEmployees(); // Refresh the employee list
+    this.employees = this.employeeService.getEmployees();
   }
 }
